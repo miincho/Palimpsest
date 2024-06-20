@@ -5,7 +5,7 @@
 pal + limp <br />
 pal + limpsest <br />
 pimp + limpsest <br />
-pimp + sest <br /><br />
+pimp + sest <br />
 
 PPP - PALIMPSEST PASSION PROJECT <br />
 M00 & C00<br />
