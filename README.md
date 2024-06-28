@@ -1,5 +1,5 @@
-# palimpsest
+# Palimpsest
 
-## an archive of traces
+## An archive of traces
 
-#### presented by mink cho and chloe yiu
+#### Presented by mink cho and chloe yiu
