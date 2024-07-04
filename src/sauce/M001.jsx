@@ -15,7 +15,7 @@ const P5Component = () => {
       let r = 2.5;
 
       p.preload = function () {
-        font = p.loadFont('/src/assets/hell-med.ttf');
+        font = p.loadFont('../assets/hell-med.ttf');
       };
 
       p.setup = function () {
