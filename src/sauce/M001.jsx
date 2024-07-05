@@ -8,15 +8,15 @@ const P5Component = () => {
 
   useEffect(() => {
     const sketch = (p) => {
-      let font;
+      // let font;
       let x, y;
       let xspeed = 0.8;
       let yspeed = 0.8;
       let r = 2.5;
 
-      p.preload = function () {
-        font = p.loadFont('../assets/hell-med.ttf');
-      };
+      // p.preload = function () {
+      //   font = p.loadFont('../assets/hell-med.otf');
+      // };
 
       p.setup = function () {
         p.createCanvas(p.windowWidth, p.windowHeight);
@@ -38,7 +38,7 @@ const P5Component = () => {
           yspeed = -yspeed;
         }
         p.fill(255);
-        p.textFont(font);
+        // p.textFont(font);
         p.text("DESIRE PATHS", p.width / 2, p.height / 2);
         p.blendMode(p.DIFFERENCE);
 
