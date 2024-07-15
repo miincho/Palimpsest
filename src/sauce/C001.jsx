@@ -1,10 +1,8 @@
-import React from 'react';
 import '../css/C001.css';
 import '../assets/fonts.css';
 import Footer from '../components/Footer.jsx'
 
 function App() {
-  
   return(
     <>
         <div className='content'>
@@ -26,7 +24,7 @@ function App() {
                 post-meeting, we have a solid direction. Concerning content, we will
                 contribute “articles,” which can mean anything from finding quotes,
                 writing captions or notes, or sourcing visual references. PPP is an
-                inspiration archive. 
+                inspiration archive.
             </p>
             <p>THIS TIME I SWEAR to commit.</p>
           </div>
@@ -34,7 +32,5 @@ function App() {
       <Footer/>
     </>
   );
-
 }
-
 export default App
