@@ -1,12 +1,15 @@
 import React from 'react';
+import '../css/C001.css';
+import '../assets/fonts.css';
 import Footer from '../components/Footer.jsx'
 
 function App() {
   
   return(
     <>
-        <div>
-            <h1>THIS TIME I SWEAR.</h1>
+        <div className='content'>
+          <div>
+             <h1>THIS TIME I SWEAR.</h1>
             <h2>Wednesday, June 19, 2024.</h2>
             <p>
                 During our junior year at Parsons School of Design, Mink and I promised
@@ -26,6 +29,7 @@ function App() {
                 inspiration archive. 
             </p>
             <p>THIS TIME I SWEAR to commit.</p>
+          </div>
         </div>
       <Footer/>
     </>
