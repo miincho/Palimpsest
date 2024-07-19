@@ -2,4 +2,4 @@
 
 ## An archive of traces
 
-#### Presented by mink cho and chloe yiu
+#### Presented by Mink Cho and Chloe Yiu
