@@ -1,7 +1,16 @@
-.head{
-    font-family: 'hell';
-    display:flex;
-    flex-direction: row;
-    justify-content:space-between;
-    padding: 1%;
+.head {
+	font-family: "hell";
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 1%;
+}
+
+#homepage,
+a#homepage:link,
+a#homepage:visited,
+a#homepage:hover,
+a#homepage:active {
+	color: black;
+	text-decoration: none;
 }
