@@ -27,9 +27,9 @@ function Header() {
         <header>
             <div className="head">
                 <div className="left"> { noCap } </div>
-               <a id='homepage' href='https://www.p3sto.com/'>
-               <div>Palimpsest</div>
-               </a>
+                <a id='homepage' href='https://www.p3sto.com/'>
+                    <div>Palimpsest</div>
+                </a>
                 <div className="right"> { skeeYat } </div>
             </div>
         </header>
