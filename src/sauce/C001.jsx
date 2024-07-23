@@ -14,6 +14,7 @@ function App() {
                 to complete a project together. It is currently June, and we are a few
                 sessions in.
             </p>
+            <br></br>
             <p>To catch you up to speed:</p>
             <p>
                 While brainstorming during Meeting #1, we decided that fearlessness and
@@ -26,7 +27,10 @@ function App() {
                 writing captions or notes, or sourcing visual references. PPP is an
                 inspiration archive.
             </p>
+            <br></br>
             <p>THIS TIME I SWEAR to commit.</p>
+            <br></br>
+            <p>Chloe (C000)</p>
           </div>
         </div>
       <Footer/>

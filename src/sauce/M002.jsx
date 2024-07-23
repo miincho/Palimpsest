@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import '../css/M002.css';
 import '../assets/fonts.css';
 

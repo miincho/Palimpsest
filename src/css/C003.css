@@ -1,0 +1,103 @@
+* {
+	font-family: hell, sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+}
+
+#meat-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80vh;
+}
+
+#meat {
+	padding: 2em;
+	max-width: fit-content;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto auto auto;
+	box-shadow: 5px 5px 20px #e5e4e2;
+}
+
+.heading {
+	max-width: fit-content;
+	margin: auto;
+	padding: 0;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0 5px 0 5px;
+}
+
+.bracket {
+	display: flex;
+	padding: 2em;
+	max-width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	grid-row: 2;
+}
+
+.round {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.bracketLine {
+	border-left: 2px solid black;
+	border-width: 10%;
+}
+
+.bracketLineSpace {
+	margin-right: 1em;
+}
+
+.match {
+	margin: 0 0.5em 0;
+	overflow: hidden;
+}
+
+.line {
+	margin: 0.25em;
+	padding: 0.25em;
+	text-align: left;
+}
+
+#yours-container {
+	display: flex;
+	justify-content: flex-end;
+	grid-row: 3;
+}
+
+#yours {
+	padding-bottom: 1em;
+}
+
+.signature-container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	grid-row: 4;
+}
+
+#dotted-line {
+	flex: 1;
+	margin: 0 0 0 1em;
+	height: 1em;
+	max-width: 66%;
+	border-bottom: 2px dotted black;
+}

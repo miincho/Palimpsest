@@ -1,35 +1,34 @@
-
-*{
-    font-family: hell;
-    /* overflow-y: scroll; */
+* {
+	font-family: hell, sans-serif;
+	/* overflow-y: scroll; */
 }
 
-.second{
-    display: none;
+.second {
+	display: none;
 }
 
-.excerpt{
-    display: none;
+.excerpt {
+	display: none;
 }
 
-.visible{
-    display: block;
+.visible {
+	display: block;
 }
 
-button{
-    width: fit-content;
-    margin: 1vh 0 1vh 0;
+button {
+	width: fit-content;
+	margin: 1vh 0 1vh 0;
 }
 
-div.content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+div.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-div.excerpt{
-    width: 70vw;
-    margin-top: 5vh;
-    font-size: 1em;
+div.excerpt {
+	width: 70vw;
+	margin-top: 5vh;
+	font-size: 1em;
 }

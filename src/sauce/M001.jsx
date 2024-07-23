@@ -1,5 +1,5 @@
-import React, { useRef, useEffect } from 'react';
-import Footer from '../components/Footer.jsx'
+import { useRef, useEffect } from 'react';
+// import Footer from '../components/Footer.jsx'
 import '../css/M001.css'
 import p5 from 'p5';
 
