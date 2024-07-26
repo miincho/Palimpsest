@@ -1,19 +1,19 @@
 import { useEffect, useRef } from "react";
 import "../assets/fonts.css";
 import "../css/C002.css";
-import Footer from '../components/Footer.jsx';
+// import Footer from '../components/Footer.jsx';
 
 function PixelPush() {
     const containerRef = useRef();
 
     useEffect(() => {
         const container = containerRef.current;
-        const screenWidth = window.innerWidth;
-        const screenHeight = window.innerHeight;
+        const screenWidth = screen.availWidth; // takes up the entire screen
+        const screenHeight = screen.availHeight;
 
         const numRows = Math.floor(screenHeight / 10);
         const numCols = Math.floor(screenWidth / 10);
-        const pixelSize = 10;
+        const pixelSize = 10; //making the numbers bigger is fun
         const pixels = [];
 
         for (let row = 0; row < numRows; row++) {
@@ -28,8 +28,8 @@ function PixelPush() {
         }
 
         pixels.forEach((pixel) => {
-            pixel.addEventListener("mouseenter", () => {
-                const dx = Math.random() * 20 - 10;
+            pixel.addEventListener("mouseover", () => {
+                const dx = Math.random() * 80 - 10;
                 const dy = Math.random() * 20 - 10;
                 pixel.style.transform = `translate(${dx}px, ${dy}px)`;
                 setTimeout(() => {
@@ -48,7 +48,7 @@ function PixelPush() {
     return (
         <>
             <div ref={containerRef} className="pixel-container"></div>
-            <Footer />
+            {/* <Footer /> */}
         </>
     );
 }
