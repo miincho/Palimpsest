@@ -1,0 +1,49 @@
+.container{
+    font-weight: 100;
+    padding: 1%;
+
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container div{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc{
+    max-width: 50ch;
+    font-size: 0.9em;
+    line-height: 1.2;
+}
+
+.title{
+    font-weight: 900;
+}
+
+.middle{
+    width: 10vw;
+}
+
+.symbolic{
+    margin-top: 2%;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    .middle{
+        padding: 5%;
+    }
+  }

@@ -6,6 +6,7 @@ import M001 from '../sauce/M001.jsx';
 import C002 from '../sauce/C002.jsx';
 import M002 from '../sauce/M002.jsx';
 import C003 from '../sauce/C003.jsx';
+import M003 from '../sauce/M003.jsx';
 import './App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="/sauce/C002" element={<C002 />} />
             <Route path="/sauce/M002" element={<M002 />} />
             <Route path="/sauce/C003" element={<C003 />} />
+            <Route path="/sauce/M003" element={<M003 />} />
           </Routes>
         </div>
       </div>
@@ -37,6 +39,7 @@ function Links() {
         <li><Link to="/sauce/C002">C002.html</Link></li>
         <li><Link to="/sauce/M002">M002.html</Link></li>
         <li><Link to="/sauce/C003">C003.html</Link></li>
+        <li><Link to="/sauce/M003">M003.html</Link></li>
       </ul>
     </nav>
   );
