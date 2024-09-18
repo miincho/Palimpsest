@@ -7,7 +7,7 @@ function App() {
 		<>
 			<div className="content">
 				<div>
-					<h1>HI.</h1>
+					<h1>WHAT'S COOKING, GOOD LOOKING.</h1>
 					<h2>Wednesday, September 18, 2024.</h2>
 					<p>Hello, Palimpsest. Long time no see. How have you been?</p>
 					<br></br>
@@ -55,6 +55,23 @@ function App() {
 								<li>rain</li>
 								<li>pour</li>
 								<li>snore</li>
+							</ul>
+						</li>
+						<li>
+							head
+							<ul>
+								<li>dome</li>
+								<li>domain</li>
+								<li>thought</li>
+								<li>vast</li>
+							</ul>
+						</li>
+						<li>
+							plans
+							<ul>
+								<li>besprinkle</li>
+								<li>wither</li>
+								<li>grow</li>
 							</ul>
 						</li>
 					</ul>
