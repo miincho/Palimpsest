@@ -18,16 +18,9 @@ function App() {
 					</p>
 					<br></br>
 					<p>
-						At the moment, I am procrastinating on my homework assignments for
-						American Art (PLAH 4035 - A) and Communication Design Studio: Motion
-						Graphics (PSAM 2440 - A). Okay, I am totally procrastinating.
-						Actually, I take that back. I am simply doing a stimulating mental
-						exercise to keep my mind sharp for the long night ahead. Yeah. It
-						has been a while since I opened up Visual Studio Code. Also, I had
-						some random thoughts I had to jot down to re-focus on annotating. I
-						read the word <em>cincture</em> which distracted me because I had to
-						look up its definition. I have also been meaning to write down a
-						list of scents.
+						At the moment, I had thoughts I needed to jot down. I read the word{" "}
+						<em>cincture</em> which distracted me because I had to look up its
+						definition.
 					</p>
 					<br></br>
 					<h3>List</h3>
