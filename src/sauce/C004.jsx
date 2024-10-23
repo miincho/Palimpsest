@@ -10,19 +10,16 @@ function App() {
 					<h1>WHAT'S COOKING, GOOD LOOKING.</h1>
 					<h2>Wednesday, September 18, 2024.</h2>
 					<p>Hello, Palimpsest. Long time no see. How have you been?</p>
-					<br></br>
 					<p>
 						Since we last met, Mink and I started our senior year at Parsons
 						School of Design! Time flies. I cannot believe this is our last year
 						of undergraduate studies. There is this bittersweet feeling.
 					</p>
-					<br></br>
 					<p>
 						At the moment, I had thoughts I needed to jot down. I read the word{" "}
 						<em>cincture</em> which distracted me because I had to look up its
 						definition.
 					</p>
-					<br></br>
 					<h3>List</h3>
 					<ul>
 						<li>
@@ -68,7 +65,6 @@ function App() {
 							</ul>
 						</li>
 					</ul>
-					<br></br>
 					<p>Signed, C ⋆✴︎˚｡⋆</p>
 				</div>
 			</div>
