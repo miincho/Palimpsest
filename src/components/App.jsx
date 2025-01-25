@@ -8,6 +8,7 @@ import M002 from "../sauce/M002.jsx";
 import C003 from "../sauce/C003.jsx";
 import M003 from "../sauce/M003.jsx";
 import C004 from "../sauce/C004.jsx";
+import M004 from "../sauce/M004.jsx";
 import "./App.css";
 
 function App() {
@@ -49,6 +50,10 @@ function App() {
 							path="/sauce/C004"
 							element={<C004 />}
 						/>
+            <Route
+							path="/sauce/M004"
+							element={<M004 />}
+						/>
 					</Routes>
 				</div>
 			</div>
@@ -80,6 +85,9 @@ function Links() {
 				</li>
 				<li>
 					<Link to="/sauce/C004">C004.html</Link>
+				</li>
+				<li>
+					<Link to="/sauce/M004">M004.html</Link>
 				</li>
 			</ul>
 		</nav>

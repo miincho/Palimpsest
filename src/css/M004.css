@@ -1,0 +1,13 @@
+.title, .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    flex-direction: column;
+}
+
+.title{
+    padding-top: 5%;
+}
