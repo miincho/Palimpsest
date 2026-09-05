@@ -20,21 +20,18 @@ function Header() {
     let hr = time.getHours().toString().padStart(2,0);
     let min = time.getMinutes().toString().padStart(2,0);
     let sec = time.getSeconds().toString().padStart(2,0);
-    const zone = new Date().toLocaleDateString(undefined,{day:'2-digit',timeZoneName:'short'}).substring(4);     
+    const zone = new Date().toLocaleDateString(undefined,{day:'2-digit',timeZoneName:'short'}).substring(4);
     const skeeYat = `${hr}:${min}:${sec} ${zone}`
 
     return(
         <header>
             <div className="head">
                 <div className="left"> { noCap } </div>
-                <a id='homepage' href='https://www.p3sto.com/'>
-                    <div>Palimpsest</div>
-                </a>
                 <div className="right"> { skeeYat } </div>
             </div>
         </header>
     );
-    
+
 }
 
 export default Header
